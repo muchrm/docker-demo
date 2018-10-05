@@ -27,7 +27,7 @@ services:
     networks:
       - internal
   api:
-    build: ./admin
+    build: ./api
     container_name: api
     restart: always
     # volumes:
